@@ -1,0 +1,190 @@
+#title{
+  background-color: #61c6f1;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  font-size: 5rem;
+  font-weight: bold;
+  line-height: 1.3;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Dosis";
+  font-size: 2.3rem;
+  font-weight: bolder;
+}
+
+.navbar-item {
+  padding: 0 18px;
+  color: black;
+}
+
+.navbar-link {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.download-button {
+  margin: 3% 3% 5% 0%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  font-family: "Dosis";
+}
+
+.feature-box h3 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+  font-size: 1.8rem;
+  padding: 0, 0, 5%;
+}
+
+p {
+ color: #8f8f8f;
+}
+
+.fa-a {
+  color:rgb(255, 153, 80);
+}
+
+.fa-plus {
+  color: rgb(255, 153, 80);
+}
+
+.fa-face-smile {
+  color: rgb(80, 162, 255)
+}
+
+.fa-school {
+  color: rgb(255, 214, 52)
+}
+
+.fa-solid {
+  padding: 0 0 1%;
+}
+
+p {
+  padding: 2%
+}
+
+.fa-solid:hover {
+  color: #61c6f1;
+}
+
+#testimonials {
+  font-family: "Dosis", sans-serif;
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #61c6f1;
+}
+
+#testimonials h2 {
+  font-weight: bolder;
+  color: white;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+#press {
+  background-color: #61c6f1;
+  text-align: center;
+
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+#carouselExampleSlidesOnly {
+  height: 500px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  font-family: "Dosis", sans-serif;
+  text-align:center;
+}
+
+.pricing-header {
+  color: black;
+  font-weight: bolder;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  color:black
+}
+
+
+#cta {
+  background-color:#61c6f1 ;
+  color: #fff;
+  padding: 7% 15%;
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  font-size: 1.5rem;
+}
